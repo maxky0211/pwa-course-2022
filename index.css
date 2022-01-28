@@ -1,8 +1,67 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(235, 142, 238);
 }
 
 .box {
   border: 2px solid silver;
   background-color: lavender;
+}
+
+.boxchat {
+  border: 2px solid #913939;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.mychat {
+  border:2px solid #913939;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 18px;
+  margin: 15px 0;
+}
+
+.chattext {
+  
+  border:2px solid #913939;
+  background-color: #f1f1f1;
+  border-radius: 50px;
+  padding: 18px;
+  margin: 10px 0;
+}
+
+
+.boxchat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mychat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.time-right {
+  float: right;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.time-left {
+  float: left;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.chat-right {
+  float: right;
+}
+
+.chat-left {
+  float: left;
+  color: rgb(0, 0, 0);
 }
